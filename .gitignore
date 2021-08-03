@@ -1,0 +1,6 @@
+.env
+__pycache__
+.ipynb_checkpoints
+untitled*
+prototype-notebooks
+algo-venv
