@@ -14,17 +14,17 @@ If a firm can answer the following questions, they will be well positioned to un
 - Are customers more likely to leave after a certain time period? 
 - Are customers who quit paying more?
 - Is there something we can potentially do to keep customers longer?
-- Can we predict which customers are more likely to leave, given certain characterisitics of each customer?
+- Can we predict which customers are more likely to leave, given certain characteristics of each customer?
 
 #### The repo is meant to look at all those questions through the following sections using sample data of a Telecom company.
 
 Using a `jupyter notebook`, analysis is broken out by the following sections:
 - Exploratory data analysis
-    - Data manipluation with `pandas`
+    - Data manipulation with `pandas`
     - Data visualization with `seaborn` and `matplotlib` 
     ![boxplot](./figures/box.png)
     ![correlationmatrix](./figures/corr.png)
-- Customer segmentation and chort analysis
+- Customer segmentation and churn analysis
     ![Segmentation](./figures/segmentation.png)
 - Machine Learning
     - `sklearn`
