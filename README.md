@@ -1,16 +1,16 @@
-![Banner](./figures/chrun.png)
+![Banner](./figures/churn.png)
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Project Overview](#project-overview)
 - [Project Organization](#project-organization)
-- [Installation](#Project-Overview)
+- [Installation](#installation)
    
 
 ## Project Overview
-Business churn (rate of attrition) is an incredibly important part of understanding subscription-centric business. 
+Business churn (rate of attrition) is an incredibly important part of understanding subscription-centric businesses. 
 
-If we can answer the following questions, a firm will be well positioned to understand their customerbase and stay on top of their business:
+If a firm can answer the following questions, they will be well positioned to understand their customer base and stay ahead in their competitive landscapes:
 - Are customers more likely to leave after a certain time period? 
 - Are customers who quit paying more?
 - Is there something we can potentially do to keep customers longer?
@@ -22,8 +22,10 @@ Using a `jupyter notebook`, analysis is broken out by the following sections:
 - Exploratory data analysis
     - Data manipluation with `pandas`
     - Data visualization with `seaborn` and `matplotlib` 
+    ![boxplot](./figures/box.png)
+    ![correlationmatrix](./figures/corr.png)
 - Customer segmentation and chort analysis
-    
+    ![Segmentation](./figures/segmentation.png)
 - Machine Learning
     - `sklearn`
     - Classification problem
@@ -31,7 +33,7 @@ Using a `jupyter notebook`, analysis is broken out by the following sections:
         - RandomForest
         - AdaBoost
         - GradientBoost
-
+      ![confusionmatrix](./figures/confusionmatrix.png)
 
 
 [(Back to top)](#table-of-contents)
