@@ -71,6 +71,9 @@ $ git clone https://github.com/Robert-F-Mulligan/customer-churn-analysis.git
 
 Install the virtual environment:
 
+- These instructions are for Windows OS
+- For other OS instructions, see [the official Python documentation.](https://docs.python.org/3/library/venv.html)
+
 ```sh
 $ python -m venv /path/to/new/virtual/environment
 ```
@@ -83,7 +86,7 @@ $ cd /path/to/new/virtual/environment/Scripts/activate
 Install project dependencies through pip and requirements.txt:
 
 ```sh
-$ pip install -r requrements.txt
+$ pip install -r requirements.txt
 ```
 
 Install a new ipython kernel:
